@@ -154,104 +154,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-7 col-xxl-4">
-                                <div class="card card-bordered h-100">
-                                    <div class="card-inner mb-n2">
-                                        <div class="card-title-group">
-                                            <div class="card-title card-title-sm">
-                                                <h6 class="title">Lead</h6>
-                                                <p>Lead Statictics</p>
-                                            </div>
-                                            <div class="card-tools">
-                                                <div class="drodown"><a href="#"
-                                                        class="dropdown-toggle dropdown-indicator btn btn-sm btn-outline-light btn-white"
-                                                        data-bs-toggle="dropdown">30 Days</a>
-                                                    <div class="dropdown-menu dropdown-menu-end dropdown-menu-xs">
-                                                        <ul class="link-list-opt no-bdr">
-                                                            <li><a href="#"><span>7 Days</span></a></li>
-                                                            <li><a href="#"><span>15 Days</span></a></li>
-                                                            <li><a href="#"><span>30 Days</span></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="nk-tb-list is-loose traffic-channel-table">
-                                        <div class="nk-tb-item nk-tb-head">
-                                            <div class="nk-tb-col nk-tb-channel"><span>Duration</span></div>
-                                            <div class="nk-tb-col nk-tb-sessions"><span>Count</span></div>
-                                            <div class="nk-tb-col nk-tb-prev-sessions"><span>Prev
-                                                    Count</span></div>
-                                            <div class="nk-tb-col nk-tb-change"><span>Change</span></div>
-                                            <div class="nk-tb-col nk-tb-trend tb-col-sm text-end">
-                                                <span>Statistics</span>
-                                            </div>
-                                        </div>
-                                        <div class="nk-tb-item">
-                                            <div class="nk-tb-col nk-tb-channel"><span class="tb-lead">Yearly</span></div>
-                                            <div class="nk-tb-col nk-tb-sessions"><span
-                                                    class="tb-sub tb-amount"><span>4305</span></span></div>
-                                            <div class="nk-tb-col nk-tb-prev-sessions"><span
-                                                    class="tb-sub tb-amount"><span>4128</span></span></div>
-                                            <div class="nk-tb-col nk-tb-change"><span class="tb-sub"><span>4.29%</span>
-                                                    <span class="change up"><em
-                                                            class="icon ni ni-arrow-long-up"></em></span></span>
-                                            </div>
-                                            <div class="nk-tb-col nk-tb-trend text-end">
-                                                <div class="traffic-channel-ck ms-auto"><canvas class="analytics-line-small"
-                                                        id="OrganicSearchData"></canvas></div>
-                                            </div>
-                                        </div>
-                                        <div class="nk-tb-item">
-                                            <div class="nk-tb-col nk-tb-channel"><span class="tb-lead">Monthly</span></div>
-                                            <div class="nk-tb-col nk-tb-sessions"><span
-                                                    class="tb-sub tb-amount"><span>859</span></span></div>
-                                            <div class="nk-tb-col nk-tb-prev-sessions"><span
-                                                    class="tb-sub tb-amount"><span>936</span></span></div>
-                                            <div class="nk-tb-col nk-tb-change"><span class="tb-sub"><span>15.8%</span>
-                                                    <span class="change down"><em
-                                                            class="icon ni ni-arrow-long-down"></em></span></span>
-                                            </div>
-                                            <div class="nk-tb-col nk-tb-trend text-end">
-                                                <div class="traffic-channel-ck ms-auto"><canvas class="analytics-line-small"
-                                                        id="SocialMediaData"></canvas></div>
-                                            </div>
-                                        </div>
-                                        <div class="nk-tb-item">
-                                            <div class="nk-tb-col nk-tb-channel"><span class="tb-lead">Weekly</span></div>
-                                            <div class="nk-tb-col nk-tb-sessions"><span
-                                                    class="tb-sub tb-amount"><span>482</span></span></div>
-                                            <div class="nk-tb-col nk-tb-prev-sessions"><span
-                                                    class="tb-sub tb-amount"><span>793</span></span></div>
-                                            <div class="nk-tb-col nk-tb-change"><span class="tb-sub"><span>41.3%</span>
-                                                    <span class="change down"><em
-                                                            class="icon ni ni-arrow-long-down"></em></span></span>
-                                            </div>
-                                            <div class="nk-tb-col nk-tb-trend text-end">
-                                                <div class="traffic-channel-ck ms-auto"><canvas class="analytics-line-small"
-                                                        id="ReferralsData"></canvas></div>
-                                            </div>
-                                        </div>
-                                        <div class="nk-tb-item">
-                                            <div class="nk-tb-col nk-tb-channel"><span class="tb-lead">Daily</span></div>
-                                            <div class="nk-tb-col nk-tb-sessions"><span
-                                                    class="tb-sub tb-amount"><span>138</span></span></div>
-                                            <div class="nk-tb-col nk-tb-prev-sessions"><span
-                                                    class="tb-sub tb-amount"><span>97</span></span></div>
-                                            <div class="nk-tb-col nk-tb-change"><span class="tb-sub"><span>12.6%</span>
-                                                    <span class="change up"><em
-                                                            class="icon ni ni-arrow-long-up"></em></span></span>
-                                            </div>
-                                            <div class="nk-tb-col nk-tb-trend text-end">
-                                                <div class="traffic-channel-ck ms-auto"><canvas class="analytics-line-small"
-                                                        id="OthersData"></canvas></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-5">
+                            <div class="col-md-8">
                                 <div class="card card-bordered card-full">
                                     <div class="card-inner-group">
                                         <div class="card-inner">
@@ -438,7 +341,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5 col-sm-6 col-xxl-3">
+                            <div class="col-md-5 col-sm-6 col-xxl-4">
                                 <div class="card card-bordered h-100">
                                     <div class="card-inner">
                                         <div class="card-title-group">

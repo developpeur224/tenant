@@ -19,6 +19,10 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('tenants/{tenant}/toggle-status/{status}', [TenantController::class, 'toggleStatus'])->name('tenants.toggle.status');
     Route::resource('plans', PlanController::class);
     Route::resource('abonnements', AbonnementController::class);
+    Route::post('/abonnements/{abonnement}/renew', [AbonnementController::class, 'renew'])->name('abonnements.renew');
+    Route::get('/abonnements/{abonnement}/toggle-status/{status}', [AbonnementController::class, 'toggleStatus'])->name('abonnements.toggle.status');
+    Route::get('/abonnements/{abonnement}/history', [AbonnementController::class, 'history'])->name('abonnements.history');
+
 });
 
 // Espace Tenant

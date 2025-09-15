@@ -19,4 +19,10 @@ class User extends Authenticatable
     {
         return $this->belongsTo(Tenant::class);
     }
+
+    public function proprietaire()
+{
+    return $this->hasOne(Proprietaire::class);
+}
+
 }

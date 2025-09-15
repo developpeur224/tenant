@@ -22,4 +22,10 @@ class Proprietaire extends Model
     {
         return $this->belongsToMany(Logement::class, 'proprietaire_logement');
     }
+
+        public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+
 }

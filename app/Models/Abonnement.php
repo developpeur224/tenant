@@ -22,4 +22,14 @@ class Abonnement extends Model
     {
         return $this->belongsTo(Plan::class);
     }
+
+    public function historiqueRenouvellements()
+    {
+        return $this->hasMany(HistoriqueRenouvellement::class)->orderBy('created_at', 'desc');
+    }
+
+    public function dernierRenouvellement()
+    {
+        return $this->hasOne(HistoriqueRenouvellement::class)->latest();
+    }
 }

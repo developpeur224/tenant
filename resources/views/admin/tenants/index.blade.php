@@ -136,7 +136,7 @@
                                                     <ul class="nk-tb-actions gx-1">
                                                             <li>
                                                                 <div class="drodown">
-                                                                    <a href="#" class="dropdown-toggle btn btn-icon btn-trigger @if ($tenant->statut != 'expiré') text-danger @endif"
+                                                                    <a href="#" class="dropdown-toggle btn btn-icon btn-trigger @if ($tenant->statut == 'expiré') text-danger @endif"
                                                                         data-bs-toggle="dropdown" @if ($tenant->statut != 'expiré') title="Expiré" @endif>
                                                                         <em class="icon ni ni-user-alt"></em>
                                                                     </a>
@@ -201,7 +201,7 @@
 
                                     </div>
                                 </div>
-                                <div class="card-inner">
+                                {{-- <div class="card-inner">
                                     <div class="nk-block-between-md g-3">
                                         <div class="g">
                                             <ul class="pagination justify-content-center justify-content-md-start">
@@ -231,7 +231,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
